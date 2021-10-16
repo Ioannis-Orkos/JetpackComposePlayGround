@@ -19,7 +19,11 @@ class MainActivity : ComponentActivity() {
                 Surface(color = MaterialTheme.colors.background) {
 
                     //Test1 Column, Row, spacer, border, padding, margin(offset)
-                    Test1()
+                    //Test1()
+
+                    //Test2 is  ImageCard, Box, gradient, Painter, Modifier, weight
+                    //Test2Box()
+                    Test2Row()
 
                 }
             }
