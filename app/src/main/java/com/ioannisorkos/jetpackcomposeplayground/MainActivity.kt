@@ -26,7 +26,10 @@ class MainActivity : ComponentActivity() {
                     //Test2Row()
 
                     //Test3 is about Text, font, decoration, style
-                    Test3()
+                    //Test3()
+
+                    //This is about state, change state form another fun, random color
+                    Test4State()
 
 
 
