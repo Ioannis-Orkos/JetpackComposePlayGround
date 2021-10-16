@@ -23,7 +23,12 @@ class MainActivity : ComponentActivity() {
 
                     //Test2 is  ImageCard, Box, gradient, Painter, Modifier, weight
                     //Test2Box()
-                    Test2Row()
+                    //Test2Row()
+
+                    //Test3 is about Text, font, decoration, style
+                    Test3()
+
+
 
                 }
             }
