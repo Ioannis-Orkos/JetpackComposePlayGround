@@ -1,6 +1,5 @@
 package com.ioannisorkos.jetpackcomposeplayground
 
-import android.annotation.SuppressLint
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -113,7 +112,7 @@ fun Test4State(){
 
 
 @Composable
-fun AnotherColorBox(colorChange:(thisColor:Color)->Unit){
+fun AnotherColorBox(changeColor:(thisColor:Color)->Unit){
     Box(
         modifier = Modifier
             .height(100.dp)
@@ -123,7 +122,7 @@ fun AnotherColorBox(colorChange:(thisColor:Color)->Unit){
                 Color.LightGray
             )
             .clickable {
-                colorChange(
+                changeColor(
                     Color(
                         Random.nextFloat(),
                         Random.nextFloat(),

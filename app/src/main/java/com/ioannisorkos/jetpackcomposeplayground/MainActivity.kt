@@ -5,9 +5,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.tooling.preview.Preview
 import com.ioannisorkos.jetpackcomposeplayground.ui.theme.JetpackComposePlayGroundTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,7 +26,10 @@ class MainActivity : ComponentActivity() {
                     //Test3()
 
                     //This is about state, change state form another fun, random color
-                    Test4State()
+                    //Test4State()
+
+                    //Test5 Scaffold, using coroutine, scope, Snack bar, keyboard close,
+                    Test5()
 
 
 
