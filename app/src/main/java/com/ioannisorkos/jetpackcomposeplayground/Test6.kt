@@ -15,6 +15,8 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import com.ioannisorkos.jetpackcomposeplayground.ui.theme.JetpackComposePlayGroundTheme
 import kotlinx.coroutines.launch
 
 @Composable
@@ -80,5 +82,23 @@ fun Test6_1(){
 
             }
         }
+    }
+}
+
+
+@Preview(showBackground = true)
+@Composable
+fun Test6Preview() {
+    JetpackComposePlayGroundTheme{
+        Test6()
+    }
+}
+
+
+@Preview(showBackground = true)
+@Composable
+fun Test6_1Preview() {
+    JetpackComposePlayGroundTheme{
+        Test6_1()
     }
 }

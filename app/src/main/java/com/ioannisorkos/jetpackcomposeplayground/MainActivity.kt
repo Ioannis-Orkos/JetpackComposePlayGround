@@ -33,7 +33,16 @@ class MainActivity : ComponentActivity() {
 
                     //Test6:- LazyColumn, scrollable, scrollState
                     //Test6_1() //column with vertical state
-                    Test6()
+                    //Test6()
+
+                    //Test7 is about different effects sideEffect, disposableEffect, normal operation
+                    //also example on on back press with custom call back, hide the system navigation
+                    //use of break point recommended to understand better
+                    //dependency implementation "com.google.accompanist:accompanist-systemuicontroller:0.20.0"
+                    //used for the nav
+                    //Test7SysNavBar()
+                    //Test7BackCustom()
+                    Test7()
 
 
 
