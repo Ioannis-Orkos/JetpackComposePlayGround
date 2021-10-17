@@ -29,7 +29,12 @@ class MainActivity : ComponentActivity() {
                     //Test4State()
 
                     //Test5 Scaffold, using coroutine, scope, Snack bar, keyboard close,
-                    Test5()
+                    //Test5()
+
+                    //Test6:- LazyColumn, scrollable, scrollState
+                    //Test6_1() //column with vertical state
+                    Test6()
+
 
 
 
