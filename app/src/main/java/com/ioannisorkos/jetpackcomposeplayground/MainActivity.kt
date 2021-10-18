@@ -42,7 +42,18 @@ class MainActivity : ComponentActivity() {
                     //used for the nav
                     //Test7SysNavBar()
                     //Test7BackCustom()
-                    Test7()
+                    //Test7()
+
+                    //Test8 simple animation animateDpAsState with different effect, color transition
+                    Test8()
+
+
+
+
+
+
+
+
 
 
 
