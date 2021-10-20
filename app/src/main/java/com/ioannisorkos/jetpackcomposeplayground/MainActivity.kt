@@ -15,6 +15,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
 
+
                     //Test1 Column, Row, spacer, border, padding, margin(offset)
                     //Test1()
 
@@ -45,7 +46,10 @@ class MainActivity : ComponentActivity() {
                     //Test7()
 
                     //Test8 simple animation animateDpAsState with different effect, color transition
-                    Test8()
+                    //Test8()
+
+                    //Test9 custom circular and line progressbar with animation
+                    Test9()
 
 
 
